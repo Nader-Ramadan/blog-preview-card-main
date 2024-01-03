@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    /* outline: auto; */
+}
+:root {
+    --primaryColor: hsl(47, 88%, 63%);
+    --secondaryColor: hsl(0, 0%, 100%);
+    --textColor: hsl(0, 0%, 50%);
+    --headingColor: hsl(0, 0%, 7%);
+    --radius: 15px;
+}
+p {
+    font-size: 16px;
+}
+body {
+    background: var(--primaryColor);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 0 20px;
+}
+main {
+    background: var(--secondaryColor);
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 23.5em;
+    padding: 20px;
+    border-radius: var(--radius);
+    gap: 15px;
+    box-shadow: 10px 10px var(--headingColor);
+    border: 1px solid var(--headingColor);
+}
+.ill {
+    border-radius: var(--radius);
+}
+.ler {
+    background: var(--primaryColor);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 800;
+}
+.pub{
+    font-weight: 600;
+}
+.htm {
+    font-weight: 800;
+}
+.the {
+    color: var(--textColor);
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.gre {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.gre > img {
+    scale: 0.5;
+}
+.gre > span{
+    font-weight: 800;
+}
+.attribution { font-size: 11px; text-align: center; font-weight: 800; border: 3px solid var(--headingColor); padding: 10px 15px; box-shadow: 5px 5px var(--headingColor);}
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none; color: var(--secondaryColor);}
